@@ -1,0 +1,58 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  text-align: center;
+  background: #f5f7fb;
+}
+
+header {
+  background: linear-gradient(135deg, #34d399, #22c55e, #06b6d4);
+  color: white;
+  padding: 60px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid #061c15; /* ✅ border added */
+  background: #34d399;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: white;
+  color: #059669;
+  border: 2px solid #061c15;
+
+}
+input {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #34d399;  /* ✅ green border */
+  border-radius: 8px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #059669; /* darker green on focus */
+}
+
+section {
+  padding: 40px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #d1fae5; /* soft green border */
+}
